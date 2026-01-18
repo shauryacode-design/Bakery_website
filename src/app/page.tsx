@@ -39,7 +39,7 @@ export default function Home() {
   }, []);
 
   const openWhatsApp = () => {
-    const phoneNumber = "919876543210"; // replace with bakery owner's number
+    const phoneNumber = "919319649564"; // replace with bakery owner's number
     const message = "Hi, I visited your website and would like to order a cake 🎂";
 
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
