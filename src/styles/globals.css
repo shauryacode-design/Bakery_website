@@ -480,7 +480,7 @@ html {
 .contact {
   height: 90%;
   width: 50%;
-  /* background-color: red; */
+  background-color: red;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
