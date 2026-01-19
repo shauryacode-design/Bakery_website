@@ -60,7 +60,7 @@ export default function Home() {
           <div className="hero-content">
             <div className="name"><p>~Abc Bakers</p></div>
             <a href="#section2">
-              <button >See Our Creation</button>
+              <button >Our Services</button>
             </a>
             <h1>Handcrafted Cakes, Baked to Perfection</h1>
 
@@ -69,7 +69,7 @@ export default function Home() {
         </div>
         <div className="second" id="section2">
           <div className="section2-head">
-            <h1>Our Creation</h1>
+            <h1>Some of Our Services</h1>
           </div>
 
           <div className="models">
@@ -221,7 +221,7 @@ export default function Home() {
             <div className="footer-links">
               <h3>Quick Links</h3>
               <a href="#top">Home</a>
-              <a href="#section2">Our Creation</a>
+              <a href="#section2">Services</a>
               <a href="#why-us">Why Choose Us</a>
               <a href="#contact">Contact</a>
             </div>
