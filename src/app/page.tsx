@@ -58,13 +58,17 @@ export default function Home() {
             </div>
           </div>
           <div className="hero-content">
-            <div className="name"><p>~Abc Bakers</p></div>
-            <a href="#section2">
-              <button >Our Services</button>
+            <div className="name"><p>Abc Bakers</p></div>
+            <a
+              href="https://wa.me/91XXXXXXXXXX"
+              target="_blank"
+              className="hero-whatsapp"
+            >
+              💬 Order on WhatsApp
             </a>
-            <h1>Handcrafted Cakes, Baked to Perfection</h1>
+            <h1>Fresh Custom Cakes in Your City</h1>
 
-            <p className="hero-para">Custom cakes, pastries, and desserts designed to make your moments unforgettable.</p>
+            <p>Birthday • Wedding • Anniversary • Same-Day Orders Available</p>
           </div>
         </div>
         <div className="second" id="section2">
@@ -96,6 +100,8 @@ export default function Home() {
                 Elegant designs crafted for your special day. <br />
                 Custom tiers, fine details, and timeless flavors.
               </p>
+              <p>Starting from <span style={{fontWeight:'600'}}>₹1,499</span></p>
+              <a href="#contact">Order Now</a>
             </div>
 
             <div className="card birthday">
@@ -119,6 +125,8 @@ export default function Home() {
                 Fun, flavorful cakes made to celebrate every moment. <br />
                 Designed to match your theme and taste.
               </p>
+              <p>Starting from <span style={{fontWeight:'600'}}>₹399</span></p>
+              <a href="#contact">Order Now</a>
             </div>
 
             <div className="card pastry">
@@ -143,6 +151,8 @@ export default function Home() {
                 Freshly baked pastries with rich textures and bold flavors. <br />
                 Perfect for quick treats and sweet cravings.
               </p>
+              <p>Starting from <span style={{fontWeight:'600'}}>₹39</span></p>
+              <a href="#contact">Order Now</a>
             </div>
 
           </div>
@@ -155,41 +165,37 @@ export default function Home() {
             <div className="speaciality-cards">
               <div className="cards">
                 <h1>Freshly Baked Daily</h1>
-                <p>Every cake is baked fresh using quality ingredients
-                  to ensure rich taste, softness, and freshness in
-                  every bite.</p>
+                <p>Baked every morning — no frozen stock.</p>
               </div>
               <div className="cards">
                 <h1>Custom Cake Designs</h1>
-                <p>From birthdays to weddings, we create custom cake
-                  designs tailored to your theme, style, and occasion.</p>
+                <p>Share your idea, we design it for you.</p>
               </div>
               <div className="cards">
                 <h1>Premium Ingredients</h1>
-                <p>We use carefully selected ingredients to deliver
-                  better flavor, quality, and a delightful experience
-                  every time.</p>
+                <p>No cheap cream or artificial taste.</p>
               </div>
               <div className="cards">
                 <h1>Made with Care</h1>
-                <p>Every order is handled with attention and care,
-                  ensuring perfect presentation and timely preparation.</p>
+                <p>Your cake, exactly when you need it.</p>
               </div>
             </div>
+            <h2>⭐ Rated 4.8 on Google</h2>
           </div>
         </div>
         <div className="fourth" id="contact">
           <div className="contact">
             <h1>Get In Touch</h1>
             <div className="contact-info">
-              <p><span className="contact-span">Phone Number -</span> XXXXXXXXXX</p>
-              <p><span className="contact-span">Email -</span> owner's_gmailid.in</p>
-              <p><span className="contact-span">Opening Hours -</span> from X to X</p>
+              <p><span className="contact-span">📞 Call: </span> XXXXXXXXXX</p>
+              <p><span className="contact-span">✉️ Email: </span> owner's_gmailid.in</p>
+              <p><span className="contact-span">🕘 Open: </span> 9 AM – 10 PM (All Days)</p>
+              <p>🚚 Home Delivery Available</p>
               <button
                 onClick={openWhatsApp}
                 className="bg-green-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-600 transition"
               >
-                Chat & Order on WhatsApp
+                Order on WhatsApp
               </button>
             </div>
           </div>
@@ -198,7 +204,7 @@ export default function Home() {
             <div className="map-container">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13773.732353724516!2d78.04500688923213!3d30.338639262911986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390929d10e67303b%3A0xe95a330a1c28b69b!2sOpee&#39;s%20Bakers!5e0!3m2!1sen!2sin!4v1768750990336!5m2!1sen!2sin" style={{ border: '0' }} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
               <p className="address">
-                📍 Abc Bakers<br />
+                <span style={{fontWeight:'800'}}>📍 Abc Bakers</span><br />
                 Main Road, Near City Mall<br />
                 Your City – 123456
               </p>
@@ -212,8 +218,7 @@ export default function Home() {
             <div className="footer-brand">
               <h2>Abc Bakers</h2>
               <p>
-                Handcrafted cakes, pastries, and desserts
-                made fresh for every occasion.
+                Trusted by 500+ happy customers in Your City
               </p>
             </div>
 
