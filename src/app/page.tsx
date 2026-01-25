@@ -167,31 +167,35 @@ export default function Home() {
         <div className="fourth" id="contact">
           <div className="contact">
             <h1>Get In Touch</h1>
+
             <div className="contact-info">
-              <p><span className="contact-span">📞 Call: </span> XXXXXXXXXX</p>
-              <p><span className="contact-span">✉️ Email: </span> owner's_gmailid.in</p>
-              <p><span className="contact-span">🕘 Open: </span> 9 AM – 10 PM (All Days)</p>
-              <p>🚚 Home Delivery Available</p>
-              <button
-                onClick={openWhatsApp}
-                className="bg-green-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-600 transition"
-              >
+              <p><span className="contact-span">📞 Call:</span> XXXXXXXXXX</p>
+              <p><span className="contact-span">✉️ Email:</span> owner's_gmailid.in</p>
+              <p><span className="contact-span">🕘 Open:</span> 9 AM – 10 PM (All Days)</p>
+              <p className="delivery">🚚 Home Delivery Available</p>
+
+              <button onClick={openWhatsApp}
+                className="bg-green-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-600 transition">
                 Order on WhatsApp
               </button>
             </div>
           </div>
+
           <div className="location">
             <h1>Location</h1>
+
             <div className="map-container">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13773.732353724516!2d78.04500688923213!3d30.338639262911986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390929d10e67303b%3A0xe95a330a1c28b69b!2sOpee&#39;s%20Bakers!5e0!3m2!1sen!2sin!4v1768750990336!5m2!1sen!2sin" style={{ border: '0' }} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+
               <p className="address">
-                <span style={{ fontWeight: '800' }}>📍 Abc Bakers</span><br />
+                <strong>📍 Abc Bakers</strong><br />
                 Main Road, Near City Mall<br />
                 Your City – 123456
               </p>
             </div>
           </div>
         </div>
+
         <footer className="footer">
           <div className="footer-container">
 
