@@ -86,21 +86,14 @@ export default function Home() {
                 loop
                 playsInline
               />
-              <video
-                src="/videos/wedding_cake0001-0150.mkv"
-                className="cake-video mobile-video"
-                autoPlay
-                muted
-                loop
-                playsInline
-              />
+              <img className="mobile-view mobile-wedding" src="/images/wedding_cake.png" alt="" />
 
               <h1>Wedding Cake</h1>
               <p className="wedding-para">
                 Elegant designs crafted for your special day. <br />
                 Custom tiers, fine details, and timeless flavors.
               </p>
-              <p>Starting from <span style={{fontWeight:'600'}}>₹1,499</span></p>
+              <p>Starting from <span style={{ fontWeight: '600' }}>₹1,499</span></p>
               <a href="#contact">Order Now</a>
             </div>
 
@@ -112,20 +105,14 @@ export default function Home() {
                 loop
                 playsInline
               />
-              <video
-                src="/videos/birthdayCake_model0001-0150.mkv"
-                className="cake-video mobile-video"
-                autoPlay
-                muted
-                loop
-                playsInline
-              />
+              <img className="mobile-view mobile-birthday" src="/images/Birthday_cake.png" alt="" />
+
               <h1>Birthday Cake</h1>
               <p>
                 Fun, flavorful cakes made to celebrate every moment. <br />
                 Designed to match your theme and taste.
               </p>
-              <p>Starting from <span style={{fontWeight:'600'}}>₹399</span></p>
+              <p>Starting from <span style={{ fontWeight: '600' }}>₹399</span></p>
               <a href="#contact">Order Now</a>
             </div>
 
@@ -138,20 +125,14 @@ export default function Home() {
                 loop
                 playsInline
               />
-              <video
-                src="/videos/Pastry_model0001-0150.mkv"
-                className="cake-video mobile-video"
-                autoPlay
-                muted
-                loop
-                playsInline
-              />
+              <img className="mobile-view mobile-pastry" src="/images/Pastry.png" alt="" />
+
               <h1>Pastry</h1>
               <p>
                 Freshly baked pastries with rich textures and bold flavors. <br />
                 Perfect for quick treats and sweet cravings.
               </p>
-              <p>Starting from <span style={{fontWeight:'600'}}>₹39</span></p>
+              <p>Starting from <span style={{ fontWeight: '600' }}>₹39</span></p>
               <a href="#contact">Order Now</a>
             </div>
 
@@ -180,7 +161,7 @@ export default function Home() {
                 <p>Your cake, exactly when you need it.</p>
               </div>
             </div>
-            <h2>⭐ Rated 4.8 on Google</h2>
+            <h2>⭐ Rated 3.9+ on Google</h2>
           </div>
         </div>
         <div className="fourth" id="contact">
@@ -204,7 +185,7 @@ export default function Home() {
             <div className="map-container">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13773.732353724516!2d78.04500688923213!3d30.338639262911986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390929d10e67303b%3A0xe95a330a1c28b69b!2sOpee&#39;s%20Bakers!5e0!3m2!1sen!2sin!4v1768750990336!5m2!1sen!2sin" style={{ border: '0' }} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
               <p className="address">
-                <span style={{fontWeight:'800'}}>📍 Abc Bakers</span><br />
+                <span style={{ fontWeight: '800' }}>📍 Abc Bakers</span><br />
                 Main Road, Near City Mall<br />
                 Your City – 123456
               </p>
