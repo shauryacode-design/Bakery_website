@@ -470,6 +470,7 @@ html {
 @media (max-width:768px) {
   .third {
     height: 140vh;
+    margin-bottom: 50px;
   }
   .head h1{
     font-size: 36px;
