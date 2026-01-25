@@ -17,6 +17,7 @@ html {
   scroll-behavior: smooth;
   width: 100%;
 }
+
 .hero {
   height: 100vh;
   width: 100%;
@@ -276,13 +277,22 @@ html {
   font-family: "Josefin Sans", sans-serif;
 }
 
-.mobile-video {
+.mobile-view {
   display: none;
 }
 
 @media(max-width:768px) {
-  .mobile-video {
+  .mobile-view {
     display: block;
+    /* background-color: black; */
+    width: 300px;
+  }
+  .mobile-wedding{
+    margin-left: 20px;
+  }
+  .mobile-birthday{
+    position: static;
+    width: 230px;
   }
 
   .desktop-video {
@@ -307,9 +317,6 @@ html {
   }
 
   .models {
-    /* position: relative;
-    top: 0;
-    left: 0; */
     margin: 0;
     padding: 0;
     /* background-color: yellow; */
@@ -326,7 +333,7 @@ html {
     margin: 0;
     width: 100%;
     /* background-color: blue; */
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     /* gap: 10px; */
     padding: 0;
@@ -599,24 +606,29 @@ html {
 @media(max-width:768px) {
   .fourth {
     flex-direction: column;
-    min-height: 100vh;
-    height: auto;
+    height: 170vh;
     padding: 60px 0;
     margin: 0;
     width: 100%;
+    /* background-color: red; */
   }
 
   .contact h1,
   .location h1 {
+    margin-bottom: 0;
     font-size: 42px;
     text-align: center;
   }
 
   .contact {
+    /* background-color: blue; */
     margin-top: 50px;
     width: 100%;
-    height: fit-content;
+    height: 50%;
     padding: 30px 0;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
   }
 
   .contact p {
@@ -634,15 +646,16 @@ html {
     width: 100%;
     gap: 20px;
   }
-  .contact-info p:nth-child(4){
+
+  .contact-info p:nth-child(4) {
     font-weight: 600;
   }
 
   .location {
     /* background-color: yellow; */
     width: 100%;
-    margin-top: 50px;
-    height: fit-content;
+    /* margin-top: 50px; */
+    height: 50%;
     margin-bottom: 0;
   }
 
@@ -651,9 +664,11 @@ html {
     height: 400px;
     margin-bottom: 30px;
   }
-  .address{
+
+  .address {
     font-size: 25px;
   }
+
   .contact-span {
     font-weight: 600;
     font-size: 40px;
