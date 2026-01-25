@@ -315,6 +315,11 @@ html {
     margin-bottom: 0px;
     /* background-color: red; */
   }
+  .section2-head h1 {
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+  }
 
   .models {
     margin: 0;
@@ -330,7 +335,7 @@ html {
     max-height: 30%;
     top: 0;
     left: 0;
-    margin: 0;
+    margin-bottom: 20px;
     width: 100%;
     /* background-color: blue; */
     justify-content: center;
@@ -351,12 +356,12 @@ html {
 
   .card h1 {
     margin: 0;
-    /* position: absolute; */
+    font-size: 36px;
   }
 
   .card p {
     margin: 0;
-    /* position: absolute; */
+    font-size: 18px;
   }
 
   .wedding video {
@@ -374,21 +379,13 @@ html {
     left: -1vw;
     top: 5vh;
   }
-
-  .pastry h1 {
-    top: 28vh;
-  }
-
-  .pastry p {
-    top: 38vh;
-  }
-
+  
   .card :nth-child(6) {
-    font-size: 30px;
+    font-size: 18px;
   }
 
   .card :nth-child(5) {
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 
