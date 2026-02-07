@@ -185,8 +185,8 @@ export default function Home() {
             <h1>Location</h1>
 
             <div className="map-container">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13773.732353724516!2d78.04500688923213!3d30.338639262911986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390929d10e67303b%3A0xe95a330a1c28b69b!2sOpee&#39;s%20Bakers!5e0!3m2!1sen!2sin!4v1768750990336!5m2!1sen!2sin" style={{ border: '0' }} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-
+              
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220409.6832235383!2d77.85232418505264!3d30.325325143216006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390929c356c888af%3A0x4c3562c032518799!2sDehradun%2C%20Uttarakhand!5e0!3m2!1sen!2sin!4v1770440829965!5m2!1sen!2sin" style={{ border: '0' }} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
               <p className="address">
                 <strong>📍 Abc Bakers</strong><br />
                 Main Road, Near City Mall<br />
